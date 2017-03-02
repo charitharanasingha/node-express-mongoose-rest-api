@@ -8,4 +8,4 @@ Example of a RESTful API built with Node.js, Express.js, Mongoose and MongoDB wi
 `npm install`
 
 ## Run
-1. `npm run start`
+`npm run start`
