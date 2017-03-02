@@ -9,18 +9,9 @@ var app = express();
 
 var PORT = 8080;
 var HOST_NAME = 'localhost';
-var DATABASE_NAME = 'vc_test';
-
-/*var HOST_NAME = 'ds163679.mlab.com:63679';
-var DATABASE_NAME = 'restaurant_vc';
-
-var USER_NAME = 'charitharanasingha';
-var PASSWORD = 'charithakandy';*/
-
-//mongodb://<dbuser>:<dbpassword>@ds163679.mlab.com:63679/restaurant_vc
+var DATABASE_NAME = 'test';
 
 mongoose.connect('mongodb://' + HOST_NAME + '/' + DATABASE_NAME);
-//mongoose.connect('mongodb://' + USER_NAME + ':' + PASSWORD + '@' +  HOST_NAME + '/' + DATABASE_NAME);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
