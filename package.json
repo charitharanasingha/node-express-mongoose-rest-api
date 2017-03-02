@@ -1,0 +1,17 @@
+{
+  "name": "vc_test_charitha",
+  "version": "1.0.0",
+  "description": "Node.js, Express.js RESTful API built with Mongoose.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Charitha Ranasingha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.9"
+  }
+}
